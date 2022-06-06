@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "PeopleAvro",
+  "namespace": "br.com.avro",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "cpf",
+      "type": "string"
+    },
+    {
+      "name": "books",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
